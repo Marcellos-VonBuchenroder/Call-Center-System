@@ -1,5 +1,13 @@
 # Call Center Request Handling Simulation
 
+> **Team project, NMU ONT412 (Semester 2, 2026).** Five students built this together, each owning one part (four patterns plus documentation).
+> **My part (Marcellos):** the **State** pattern. `CallSession` delegates to `OnCallState`, `OnHoldState` and `HungUpState`, so a call's allowed actions change with its state, talk and hold time are tracked separately, and the final duration is written back to the shared call log.
+>
+> The team's shared repository: [Rohit-Aroonslam/call-center-system](https://github.com/Rohit-Aroonslam/call-center-system). This copy keeps the full commit history.
+
+**Stack:** C# · .NET 8 · Blazor Server
+**Patterns:** Iterator · State · Composite · Proxy
+
 ## Project Overview
 
 This project is a Call Center Request Handling application developed for the ONT412
